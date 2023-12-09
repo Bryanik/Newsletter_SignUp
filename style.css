@@ -25,6 +25,7 @@ ul {
 
 .cc-body {
     background-color: hsl(229, 44%, 25%);
+    height: 100vh;
 }
 
 section, .attribution {
@@ -35,19 +36,28 @@ section, .attribution {
     section, .attribution {
         width: 100%;
     }
+
+    .cc-button {
+        width: 100%;
+    }
+
 }
 @media (min-width:768px){
     section, .attribution {
         width: 50%;
+        border-radius: 10px;
     }
 
-    section {
-        border-radius: 10px;
+    .cc-button {
+        width: auto;
+    }
+}
+
+    /* section {
         position: relative;
         top: 100px;
     }
     .cc-left {
         position: relative;
         top: 20px;
-    }
-}
+    } */
